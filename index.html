@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Boilerplate y estructura principal de un sitio web de vanguardia tecnológica e innovación.">
+  <meta name="keywords" content="tecnologia, innovacion, diseño web, flexbox, html5, css3">
+  <meta name="author" content="Tu Nombre">
+  
+  <title>TechVision | Innovación y Diseño</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="#"><i class="fa-solid fa-cube"></i> TechVision</a>
+      </div>
+      
+      <nav class="nav">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li class="nav-item has-dropdown">
+            <a href="#productos" class="nav-link">Productos <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="#">TechPro Max</a></li>
+              <li><a href="#">TechAir Lite</a></li>
+              <li><a href="#">Ecosistema Studio</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#caracteristicas" class="nav-link">Características</a></li>
+          <li class="nav-item"><a href="#novedades" class="nav-link">Novedades</a></li>
+          <li class="nav-item"><a href="#contacto" class="nav-link nav-btn">Empezar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="main-content">
+    <div class="container">
+
+      <section id="inicio" class="hero-section">
+        <h1 class="hero-title">TechVision Pro</h1>
+        <p class="hero-subtitle">Potencia sin límites. Diseño sin precedentes.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary">Más información</a>
+          <a href="#" class="btn btn-secondary">Comprar ahora</a>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1600&q=80" alt="Portátil de última generación sobre fondo minimalista en tonos oscuros" class="hero-img">
+        </div>
+      </section>
+      <div class="content-layout">
+        <section id="novedades" class="articles-section">
+          <h2 class="section-title">Últimas Innovaciones</h2>
+          
+          <article class="card-article">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80" alt="Placa de circuito e iluminación LED tecnológica" class="article-img">
+            </div>
+            <div class="card-content">
+              <span class="badge">Procesadores</span>
+              <h3>Arquitectura M-Quantum de 2nm</h3>
+              <p>Un salto cuantitativo en rendimiento por vatio. Diseñado específicamente para tareas intensivas de inteligencia artificial y renderizado 3D en tiempo real.</p>
+              <a href="#" class="read-more">Leer artículo completo <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="card-article">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=800&q=80" alt="Pantalla de alta resolución mostrando gráficos dinámicos" class="article-img">
+            </div>
+            <div class="card-content">
+              <span class="badge">Pantallas</span>
+              <h3>Pantalla Retina XDR Ultra</h3>
+              <p>Con un brillo de pico de 2000 nits y tecnología ProMotion de 120Hz adaptativa, vive los colores más fieles a la realidad con un consumo energético optimizado.</p>
+              <a href="#" class="read-more">Leer artículo completo <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="card-article">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" alt="Código de programación en pantalla verde estilo matriz" class="article-img">
+            </div>
+            <div class="card-content">
+              <span class="badge">Software</span>
+              <h3>VisionOS 5: Control por voz e intuición</h3>
+              <p>El nuevo sistema operativo integra modelos de lenguaje locales que aprenden de tus rutinas diarias para automatizar tu flujo de trabajo sin comprometer la privacidad.</p>
+              <a href="#" class="read-more">Leer artículo completo <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </section>
+        <aside class="sidebar">
+          <div class="widget">
+            <h4>Especificaciones</h4>
+            <ul class="spec-list">
+              <li><i class="fa-solid fa-microchip"></i> Chip M-Quantum 12-Core</li>
+              <li><i class="fa-solid fa-memory"></i> Hasta 64 GB Memoria Unificada</li>
+              <li><i class="fa-solid fa-battery-full"></i> 22 horas de autonomía</li>
+              <li><i class="fa-solid fa-wifi"></i> Wi-Fi 7 y 5G Advanced</li>
+            </ul>
+          </div>
+
+          <div class="widget promo-widget">
+            <h4>Suscripción Developer</h4>
+            <p>Accede a las versiones beta y herramientas exclusivas para desarrolladores.</p>
+            <a href="#" class="btn btn-primary btn-block">Unirme ahora</a>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-info">
+        <p class="footer-logo"><i class="fa-solid fa-cube"></i> TechVision Inc.</p>
+        <p>Inspirando el futuro de la tecnología con diseño funcional y limpio.</p>
+      </div>
+
+      <div class="footer-links">
+        <h5>Explorar</h5>
+        <ul>
+          <li><a href="#">Tienda</a></li>
+          <li><a href="#">Soporte</a></li>
+          <li><a href="#">Comunidad</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h5>Síguenos</h5>
+        <div class="social-icons">
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 TechVision Inc. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  <a href="#contacto" class="fixed-floating-btn" aria-label="Soporte y Asistencia">
+    <i class="fa-solid fa-comments"></i>
+  </a>
+
+</body>
+</html>
